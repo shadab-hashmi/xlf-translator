@@ -1,9 +1,8 @@
-
 [![npm version](https://badge.fury.io/js/xlf-translator.svg)](https://badge.fury.io/js/xlf-translator)
 
 # Xlf-translator
 
-This tool can be used to automate i18n translations with google translate. 
+This tool can be used to automate i18n translations with google translate.
 It is primarily used for creating translation templates in csv so that translators can edit the files in numbers/excel.
 
 ## Getting Started
@@ -19,9 +18,9 @@ $ npm install -g xlf-translator
 
 ### Usage
 
-Create a ```tranlator.config.json``` file in the root of your project, make sure the messages.xlf is provided in the config file. Then run it once. 
+Create a `tranlator.config.json` file in the root of your project, make sure the messages.xlf is provided in the config file. Then run it once.
 This will generate all the translations
-as ```message.(language-code).xlf``` and a ```message.(language-code).csv``` in the output directory (provided in the config file). 
+as `message.(language-code).xlf` and a `message.(language-code).csv` in the output directory (provided in the config file).
 Now you can edit the translations in the csv (Run it again for updates).
 
 ```
@@ -47,26 +46,27 @@ $ translate
 ```
 
 This starts the google translator (if not yet exist). It will create the translation files in the messages directory.
-In translations/csv/ we can edit the files as csv. When done hit ```translate``` again for reindexing.
+In translations/csv/ we can edit the files as csv. When done hit `translate` again for reindexing.
 
 ## Built With
 
-* [@k3rn31p4nic/google-translate-api](https://www.npmjs.com/package/@k3rn31p4nic/google-translate-api) - Used translate the files
-* [node-xml2js](https://github.com/Leonidas-from-XIV/node-xml2js) - Used for editing xml
-* [csvtojson](https://www.npmjs.com/package/csvtojson) - Convert csv to json
-* [json2csv](https://www.npmjs.com/package/json2csv) - Convert json to csv
+- [@iamtraction/google-translate](https://www.npmjs.com/package/@iamtraction/google-translate) - Used translate the files
+- [node-xml2js](https://github.com/Leonidas-from-XIV/node-xml2js) - Used for editing xml
+- [csvtojson](https://www.npmjs.com/package/csvtojson) - Convert csv to json
+- [json2csv](https://www.npmjs.com/package/json2csv) - Convert json to csv
 
 ## Author
 
-* **Ivo Nederlof** - *Initial work* - [xlf-translator](https://github.com/ivonederlof/xlf-translator)
-
+- **Ivo Nederlof** - _Initial work_ - [xlf-translator](https://github.com/ivonederlof/xlf-translator)
 
 ## Todo
+
 1. Tests
 
 ## Other
 
 Example language codes
+
 ```
 'auto': 'Automatic'``
 'af': 'Afrikaans'

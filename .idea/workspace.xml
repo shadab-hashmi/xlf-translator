@@ -432,7 +432,7 @@
     <entry file="file://$PROJECT_DIR$/src/locale/messages/messages.en.xlf" />
     <entry file="file://$PROJECT_DIR$/src/locale/messages/messages.fr.xlf" />
     <entry file="file://$PROJECT_DIR$/src/locale/messages/messages.nl.xlf" />
-    <entry file="file://$PROJECT_DIR$/node_modules/@k3rn31p4nic/google-translate-api/src/tokenGenerator.js" />
+    <entry file="file://$PROJECT_DIR$/node_modules/@iamtraction/google-translate/src/tokenGenerator.js" />
     <entry file="file://$PROJECT_DIR$/node_modules/json2csv/bin/json2csv.js" />
     <entry file="file://$PROJECT_DIR$/lib/models/config.model.js" />
     <entry file="file://$PROJECT_DIR$/src/locale/messages.xlf" />
@@ -498,7 +498,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/@k3rn31p4nic/google-translate-api/src/index.js">
+    <entry file="file://$PROJECT_DIR$/node_modules/@iamtraction/google-translate/src/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2130">
           <caret line="142" column="18" selection-start-line="142" selection-start-column="18" selection-end-line="142" selection-end-column="18" />

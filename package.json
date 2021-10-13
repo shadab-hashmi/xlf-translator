@@ -1,17 +1,20 @@
 {
-  "name": "xlf-translator",
-  "version": "1.0.30",
-  "description": "An XLF Reader and translator",
+  "name": "ng-xlf-translator",
+  "version": "1.0.0",
+  "description": "[![npm version](https://badge.fury.io/js/xlf-translator.svg)](https://badge.fury.io/js/xlf-translator)",
   "main": "index.js",
   "bin": {
-    "translate": "./bin/translate.js"
+    "ng-xlf-translator": "translate.js"
+  },
+  "directories": {
+    "lib": "lib"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ivonederlof/xlf-translator.git"
+    "url": "git+https://github.com/shadab-hashmi/xlf-translator.git"
   },
   "keywords": [
     "XLF",
@@ -21,14 +24,14 @@
     "translator",
     "i18n"
   ],
-  "author": "Ivo Nederlof",
+  "author": "Shadab Hashmi",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ivonederlof/xlf-translator/issues"
+    "url": "https://github.com/shadab-hashmi/xlf-translator/issues"
   },
-  "homepage": "https://github.com/ivonederlof/xlf-translator#readme",
+  "homepage": "https://github.com/shadab-hashmi/xlf-translator#readme",
   "dependencies": {
-    "@k3rn31p4nic/google-translate-api": "^1.0.5",
+    "@iamtraction/google-translate": "^1.1.2",
     "async": "^2.6.1",
     "chalk": "^2.4.2",
     "csvtojson": "^2.0.4",
