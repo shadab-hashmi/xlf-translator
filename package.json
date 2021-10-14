@@ -1,7 +1,7 @@
 {
   "name": "ng-xlf-translate",
-  "version": "1.0.0",
-  "description": "[![npm version](https://badge.fury.io/js/xlf-translator.svg)](https://badge.fury.io/js/xlf-translator)",
+  "version": "1.0.2",
+  "description": "An XLF Reader and translator",
   "main": "index.js",
   "bin": {
     "translate": "./bin/translate.js"
@@ -24,14 +24,14 @@
     "translator",
     "i18n"
   ],
-  "author": "Shadab Hashmi",
+  "author": "Ivo Nederlof",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/shadab-hashmi/xlf-translator/issues"
   },
   "homepage": "https://github.com/shadab-hashmi/xlf-translator#readme",
   "dependencies": {
-    "@iamtraction/google-translate": "^1.1.2",
+    "@vitalets/google-translate-api": "^7.0.0",
     "async": "^2.6.1",
     "chalk": "^2.4.2",
     "csvtojson": "^2.0.4",

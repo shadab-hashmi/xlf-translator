@@ -50,7 +50,7 @@ In translations/csv/ we can edit the files as csv. When done hit `translate` aga
 
 ## Built With
 
-- [@iamtraction/google-translate](https://www.npmjs.com/package/@iamtraction/google-translate) - Used translate the files
+- [@vitalets/google-translate-api](https://www.npmjs.com/package/@vitalets/google-translate-api) - Used translate the files
 - [node-xml2js](https://github.com/Leonidas-from-XIV/node-xml2js) - Used for editing xml
 - [csvtojson](https://www.npmjs.com/package/csvtojson) - Convert csv to json
 - [json2csv](https://www.npmjs.com/package/json2csv) - Convert json to csv
